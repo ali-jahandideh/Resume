@@ -133,7 +133,7 @@ a{
 
 .first-name{
     color: white;
-    font-weight: 200;
+    font-weight: 400;
     font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
     display: block;
@@ -246,6 +246,10 @@ a{
 .social-items{
     margin-top: 2rem;
 }
+
+/* .contact-info{
+    margin-top: 2rem;
+} */
 
 .social-item{
     margin-top: 1.5rem;
