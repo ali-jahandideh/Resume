@@ -27,7 +27,7 @@ img{
 
 a{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
 }
 
 a:hover{
@@ -108,7 +108,7 @@ a:hover{
     max-width: 700;
     width: 100%;
     margin: 0 auto;
-    grid-column: 1/-1;
+    grid-column: 1 / -1;
     display: flex;
     flex-direction: row;
     gap: 5rem;
@@ -163,6 +163,7 @@ a:hover{
 .downloadbtn{
     display: block;
     text-decoration: underline;
+    color: white;
     font-size: 1.6rem;
     margin-top: 1rem;
     transition: all 250ms ease-in;
@@ -197,10 +198,6 @@ a:hover{
 .reference-name{
     font-size: 1.6rem;
     font-weight: 700;
-}
-
-.reference-email{
-    color: var(--text-color);
 }
 
 /* ***************************************** Education ********************************************* */
@@ -258,10 +255,6 @@ a:hover{
 /* ************************************ Socials *************************************************** */
 /* ************************************ Contant *************************************************** */
 
-.my-email, .my-phonnumber {
-    color: var(--text-color);
-}
-
 .social-items{
     margin-top: 2rem;
 }
@@ -273,7 +266,6 @@ a:hover{
     gap: .5rem;
     align-items: center;
     justify-content: flex-start;
-    color: var(--text-color);
 }
 
 .social-item svg{
