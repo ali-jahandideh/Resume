@@ -215,7 +215,7 @@ a:hover{
 
 .downloadbtn{
     text-decoration: none;
-    color: var(--text-color);
+    color: white;
     font-size: 1.6rem;
     padding: 5rem 1rem;
     transition: all 250ms ease-in;
